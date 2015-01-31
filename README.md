@@ -3,15 +3,15 @@ Kişisel sitem için hazırladığım bu sınıf
 Özelleştirilebilir olup kafanıza göre takılabiliyorsunuz
 
 Çalıştırma
-```javascript
+```js
 thereSomeThingAboutMe.run();
 ```
 Özelleştirerek Çalıştırma Örneği:
-```
+```js
    thereSomeThingAboutMe.run({
       random:false,
       time: 1000,
-      pictures: ['1.png', '2.png', '3.png','vs.vs..],
+      pictures: ['1.png', '2.png', '3.png','vs.vs..'],
       inAnimation: 'zoomIn',
       outAnimation: 'bounceOut',
    });
