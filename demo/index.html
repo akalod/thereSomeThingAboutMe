@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>There Some Thing About Me</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <link href="animate.css" rel='stylesheet' type='text/css'/> 
+    <script type="text/javascript" src="../thereSomeThingAboutMe.js"></script>
+    <style>
+        .about-of-me {
+            position: absolute;
+            width: 250px;
+            height: 250px;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            top: 0;
+            margin: auto;
+        }
+        .about-of-me > img {
+            border-radius: 50%;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            border: 10px solid #efefef;
+        }
+        body {
+
+            font-family: "arial";
+            background: #fff;
+            color: #1e1e1e;
+            text-shadow:1px 1px 0 #fff;
+        }
+    </style>
+</head>
+<body>
+<div class="about-of-me">
+    <img src="images/1.png" id="myPic" height="250" class="animated "/>
+</div>
+<b>Demo</b>
+<script>
+
+    $(function () {
+        thereSomeThingAboutMe.run({random:false});
+    })
+
+
+</script>
+</body>
+</html>
