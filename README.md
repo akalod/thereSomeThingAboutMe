@@ -10,7 +10,7 @@ thereSomeThingAboutMe.run();
 ```js
    thereSomeThingAboutMe.run({
       random:false,
-      time: 1000,
+      time: 6500,
       pictures: ['1.png', '2.png', '3.png','vs.vs..'],
       inAnimation: 'zoomIn',
       outAnimation: 'bounceOut',
